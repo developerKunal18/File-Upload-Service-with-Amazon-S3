@@ -1,0 +1,51 @@
+🧠 Why This Is Important
+
+Local storage:
+Client
+   │
+   ▼
+Flask Server
+   │
+   ▼
+uploads/
+
+Problems:
+❌ Limited storage
+❌ Difficult scaling
+❌ Risk of data loss
+
+Cloud storage:
+Client
+   │
+   ▼
+Flask API
+   │
+   ▼
+Amazon S3 Bucket
+
+Benefits:
+✅ Unlimited scalability
+✅ High durability
+✅ Global availability
+✅ Secure object storage
+
+Used By :
+Netflix
+Airbnb
+Dropbox
+Spotify
+Instagram
+
+🛠 Tech Stack
+Python
+Flask
+Boto3
+Amazon S3
+
+📂 Project Structure
+s3-file-upload/
+│
+├── app.py
+├── config.py
+├── requirements.txt
+└── README.md
